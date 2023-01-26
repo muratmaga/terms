@@ -1,0 +1,230 @@
+{
+  "SegmentationCategoryTypeContextName": "Murats List",
+  "@schema": "https://raw.githubusercontent.com/qiicr/dcmqi/master/doc/segment-context-schema.json#",
+  "SegmentationCodes": {
+    "Category": [
+      {
+        "CodeMeaning": "Skull",
+        "CodingSchemeDesignator": "UBERON",
+        "showAnatomy": true,
+        "cid": "7150",
+        "CodeValue": "85756007",
+        "contextGroupName": "SegmentationPropertyCategories",
+        "Type": [
+          {
+            "recommendedDisplayRGBValue": [
+              230,
+              220,
+              70
+            ],
+            "CodeMeaning": "Cranium",
+            "CodingSchemeDesignator": "UBERON",
+            "3dSlicerLabel": "Cranium",
+            "3dSlicerIntegerLabel": 12,
+            "cid": "7166",
+            "UMLSConceptUID": "C0344335",
+            "CodeValue": "248300009",
+            "contextGroupName": "CommonTissueSegmentationTypes",
+            "SNOMEDCTConceptID": "248300009"
+          },
+          {
+            "recommendedDisplayRGBValue": [
+              230,
+              0,
+              70
+            ],
+            "CodeMeaning": "Frontal",
+            "CodingSchemeDesignator": "UBERON",
+            "3dSlicerLabel": "Frontal",
+            "3dSlicerIntegerLabel": 12,
+            "cid": "7166",
+            "UMLSConceptUID": "C2004491",
+            "CodeValue": "12402003",
+            "contextGroupName": "CommonTissueSegmentationTypes",
+            "SNOMEDCTConceptID": "12402003"
+          },
+          {
+            "recommendedDisplayRGBValue": [
+              177,
+              122,
+              101
+            ],
+            "CodeMeaning": "Parietal",
+            "CodingSchemeDesignator": "UBERON",
+            "3dSlicerLabel": "Parietal",
+            "3dSlicerIntegerLabel": 3,
+            "cid": "7166",
+            "UMLSConceptUID": "C1123023",
+            "CodeValue": "39937001",
+            "contextGroupName": "CommonTissueSegmentationTypes",
+            "SNOMEDCTConceptID": "39937001"
+          },
+          {
+            "recommendedDisplayRGBValue": [
+              192,
+              104,
+              88
+            ],
+            "CodeMeaning": "Maxilla",
+            "CodingSchemeDesignator": "UBERON",
+            "3dSlicerLabel": "Maxilla",
+            "3dSlicerIntegerLabel": 8,
+            "cid": "7166",
+            "UMLSConceptUID": "C0026845",
+            "CodeValue": "71616004",
+            "contextGroupName": "CommonTissueSegmentationTypes",
+            "SNOMEDCTConceptID": "71616004"
+          },
+          {
+            "recommendedDisplayRGBValue": [
+              178,
+              212,
+              242
+            ],
+            "CodeMeaning": "Premaxilla",
+            "CodingSchemeDesignator": "UBERON",
+            "3dSlicerLabel": "Premaxilla",
+            "3dSlicerIntegerLabel": 22,
+            "cid": "7166",
+            "UMLSConceptUID": "C0224498",
+            "CodeValue": "74135004",
+            "contextGroupName": "CommonTissueSegmentationTypes",
+            "SNOMEDCTConceptID": "74135004"
+          },
+          {
+            "recommendedDisplayRGBValue": [
+              152,
+              189,
+              207
+            ],
+            "CodeMeaning": "Palatine",
+            "CodingSchemeDesignator": "UBERON",
+            "3dSlicerLabel": "Palatine",
+            "3dSlicerIntegerLabel": 20,
+            "cid": "7166",
+            "UMLSConceptUID": "C0039508",
+            "CodeValue": "13024002",
+            "contextGroupName": "CommonTissueSegmentationTypes",
+            "SNOMEDCTConceptID": "13024002"
+          },
+          {
+            "recommendedDisplayRGBValue": [
+              244,
+              214,
+              49
+            ],
+            "CodeMeaning": "Sphenoid",
+            "CodingSchemeDesignator": "UBERON",
+            "3dSlicerLabel": "Sphenoid",
+            "3dSlicerIntegerLabel": 15,
+            "cid": "7166",
+            "UMLSConceptUID": "C1268169",
+            "CodeValue": "119410002",
+            "contextGroupName": "CommonTissueSegmentationTypes",
+            "SNOMEDCTConceptID": "119410002"
+          }
+        ]
+      },
+      {
+        "CodeMeaning": "Forelimb",
+        "CodingSchemeDesignator": "UBERON",
+        "showAnatomy": true,
+        "cid": "7150",
+        "CodeValue": "85756007",
+        "contextGroupName": "SegmentationPropertyCategories",
+        "Type": [
+          {
+            "recommendedDisplayRGBValue": [
+              230,
+              220,
+              70
+            ],
+            "CodeMeaning": "Humerus",
+            "CodingSchemeDesignator": "UBERON",
+            "3dSlicerLabel": "humerus",
+            "3dSlicerIntegerLabel": 12,
+            "cid": "7166",
+            "UMLSConceptUID": "C0344335",
+            "CodeValue": "248300009",
+            "contextGroupName": "CommonTissueSegmentationTypes",
+            "SNOMEDCTConceptID": "248300009"
+          },
+         {
+            "recommendedDisplayRGBValue": [
+              177,
+              122,
+              101
+            ],
+            "CodeMeaning": "Radius",
+            "CodingSchemeDesignator": "UBERON",
+            "3dSlicerLabel": "Radius",
+            "3dSlicerIntegerLabel": 3,
+            "cid": "7166",
+            "UMLSConceptUID": "C1123023",
+            "CodeValue": "39937001",
+            "contextGroupName": "CommonTissueSegmentationTypes",
+            "SNOMEDCTConceptID": "39937001"
+          },
+          {
+            "recommendedDisplayRGBValue": [
+              192,
+              104,
+              88
+            ],
+            "CodeMeaning": "Ulna",
+            "CodingSchemeDesignator": "UBERON",
+            "3dSlicerLabel": "Ulna",
+            "3dSlicerIntegerLabel": 8,
+            "cid": "7166",
+            "UMLSConceptUID": "C0026845",
+            "CodeValue": "71616004",
+            "contextGroupName": "CommonTissueSegmentationTypes",
+            "SNOMEDCTConceptID": "71616004"
+          },
+          {
+            "recommendedDisplayRGBValue": [
+              178,
+              212,
+              242
+            ],
+            "CodeMeaning": "Scapula",
+            "CodingSchemeDesignator": "UBERON",
+            "3dSlicerLabel": "Scalpula",
+            "3dSlicerIntegerLabel": 22,
+            "cid": "7166",
+            "contextGroupName": "CommonTissueSegmentationTypes",
+            "SNOMEDCTConceptID": "74135004"
+          },
+          {
+            "recommendedDisplayRGBValue": [
+              152,
+              189,
+              207
+            ],
+            "CodeMeaning": "Clavicle",
+            "CodingSchemeDesignator": "UBERON",
+            "3dSlicerLabel": "Clavicle",
+            "3dSlicerIntegerLabel": 20,
+            "cid": "7166",
+            "contextGroupName": "CommonTissueSegmentationTypes",
+            "SNOMEDCTConceptID": "13024002"
+          },
+          {
+            "recommendedDisplayRGBValue": [
+              244,
+              214,
+              49
+            ],
+            "CodeMeaning": "Nerve",
+            "CodingSchemeDesignator": "UBERON",
+            "3dSlicerLabel": "nerve",
+            "3dSlicerIntegerLabel": 15,
+            "cid": "7166",
+            "contextGroupName": "CommonTissueSegmentationTypes",
+            "SNOMEDCTConceptID": "119410002"
+          }
+        ]
+      }
+    ]
+  }
+}
