@@ -1,5 +1,5 @@
 {
-  "SegmentationCategoryTypeContextName": "Murats List",
+  "SegmentationCategoryTypeContextName": "Tetrapod Skeletal Terms",
   "@schema": "https://raw.githubusercontent.com/qiicr/dcmqi/master/doc/segment-context-schema.json#",
   "SegmentationCodes": {
     "Category": [
@@ -22,10 +22,8 @@
             "3dSlicerLabel": "Cranium",
             "3dSlicerIntegerLabel": 12,
             "cid": "7166",
-            "UMLSConceptUID": "C0344335",
-            "CodeValue": "248300009",
-            "contextGroupName": "CommonTissueSegmentationTypes",
-            "SNOMEDCTConceptID": "248300009"
+            "CodeValue": "0003128",
+            "contextGroupName": "CommonTissueSegmentationTypes"
           },
           {
             "recommendedDisplayRGBValue": [
@@ -38,10 +36,8 @@
             "3dSlicerLabel": "Frontal",
             "3dSlicerIntegerLabel": 12,
             "cid": "7166",
-            "UMLSConceptUID": "C2004491",
-            "CodeValue": "12402003",
-            "contextGroupName": "CommonTissueSegmentationTypes",
-            "SNOMEDCTConceptID": "12402003"
+            "CodeValue": "0000209",
+            "contextGroupName": "CommonTissueSegmentationTypes"
           },
           {
             "recommendedDisplayRGBValue": [
